@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   try {
-    const apiUrl = 'https://internal.gearedfinance.com.au/api/partnercalculator/GetGeardCaclculatorRange?calculatorName=Calculator2';
+    const apiUrl = 'https://internal.gearedfinance.com.au/api/partnercalculator/GetGeardCaclculatorRange?calculatorName=TestCal';
 
     const response = await fetch(apiUrl);
 
