@@ -1,7 +1,7 @@
 export default async function handler(req, res) {
 
        // Allow requests from your Webflow domain
-  res.setHeader('Access-Control-Allow-Origin', 'https://app.onecompiler.com');
+  res.setHeader('Access-Control-Allow-Origin', 'https://geared.webflow.io');
   res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
